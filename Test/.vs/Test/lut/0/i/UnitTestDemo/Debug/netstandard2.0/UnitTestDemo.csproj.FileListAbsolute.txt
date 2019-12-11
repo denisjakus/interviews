@@ -1,0 +1,7 @@
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\UnitTestDemo\Debug\netstandard2.0\UnitTestDemo.deps.json
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\UnitTestDemo\Debug\netstandard2.0\UnitTestDemo.dll
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\UnitTestDemo\Debug\netstandard2.0\UnitTestDemo.csproj.CoreCompileInputs.cache
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\UnitTestDemo\Debug\netstandard2.0\UnitTestDemo.AssemblyInfoInputs.cache
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\UnitTestDemo\Debug\netstandard2.0\UnitTestDemo.AssemblyInfo.cs
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\UnitTestDemo\Debug\netstandard2.0\UnitTestDemo.csproj.CopyComplete
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\UnitTestDemo\Debug\netstandard2.0\UnitTestDemo.dll

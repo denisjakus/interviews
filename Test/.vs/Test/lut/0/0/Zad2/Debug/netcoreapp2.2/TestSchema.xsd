@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TestSchema"
+           targetNamespace="http://tempuri.org/TestSchema.xsd"
+           elementFormDefault="qualified"
+           xmlns="http://tempuri.org/TestSchema.xsd"
+           xmlns:mstns="http://tempuri.org/TestSchema.xsd"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="sheet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1000" name="row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="1" maxOccurs="1000" name="cell" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

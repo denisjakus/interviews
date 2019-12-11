@@ -1,0 +1,11 @@
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad2\Debug\netcoreapp2.2\test1.xml
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad2\Debug\netcoreapp2.2\TestSchema.xsd
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad2\Debug\netcoreapp2.2\Zad2.deps.json
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad2\Debug\netcoreapp2.2\Zad2.runtimeconfig.json
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad2\Debug\netcoreapp2.2\Zad2.runtimeconfig.dev.json
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad2\Debug\netcoreapp2.2\Zad2.dll
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad2\Debug\netcoreapp2.2\Zad2.csproj.CoreCompileInputs.cache
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad2\Debug\netcoreapp2.2\Zad2.AssemblyInfoInputs.cache
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad2\Debug\netcoreapp2.2\Zad2.AssemblyInfo.cs
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad2\Debug\netcoreapp2.2\Zad2.csproj.CopyComplete
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad2\Debug\netcoreapp2.2\Zad2.dll

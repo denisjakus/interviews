@@ -1,0 +1,12 @@
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad3DemoTest\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad3DemoTest\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad3DemoTest\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.deps.json
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.runtimeconfig.json
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.runtimeconfig.dev.json
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\b\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.dll
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.csproj.CoreCompileInputs.cache
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.AssemblyInfoInputs.cache
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.AssemblyInfo.cs
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.csproj.CopyComplete
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad3DemoTest\Debug\netcoreapp2.2\Zad3DemoTest.dll

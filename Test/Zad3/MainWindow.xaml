@@ -1,0 +1,103 @@
+﻿<Window x:Class="Zad3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zad3"
+        DataContext="{Binding Path=Main, Source={StaticResource Locator}}"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button
+            Command="{Binding MoveLeftCommand}"
+            Content="&lt;"
+            HorizontalAlignment="Left"
+            Margin="220,10,0,0"
+            VerticalAlignment="Top"
+            Width="75" Height="315" />
+        <Button
+            Command="{Binding MoveRightCommand}"
+            Content="&gt;"
+            HorizontalAlignment="Left"
+            Margin="707,10,0,0"
+            VerticalAlignment="Top"
+            Width="75" Height="315" />
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" />
+        <Label Content="Name:" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"
+               RenderTransformOrigin="0.49,2.855" />
+        <Label
+            Content="{Binding CurrentSelectedCatalogItem.Id}"
+            HorizontalAlignment="Left"
+            Margin="62,26,0,0"
+            VerticalAlignment="Top" />
+        <Label
+            Content="{Binding CurrentSelectedCatalogItem.Name}"
+            HorizontalAlignment="Left"
+            Margin="62,68,0,0"
+            VerticalAlignment="Top"
+            RenderTransformOrigin="0.49,2.855" />
+        <ListView HorizontalAlignment="Left" Height="79" Margin="10,330,0,0" VerticalAlignment="Top" Width="772"
+                  ItemsSource="{Binding BasketItems}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Stretch">
+                        <Label Content="{Binding Id}" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+                        <Label Content="{Binding Name}" HorizontalAlignment="Center" VerticalAlignment="Bottom" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+        <Button
+            Command="{Binding AddItemToBasketCommand}"
+            IsEnabled="{Binding IsItemInBasket}"
+            Content="Add item to basket"
+            HorizontalAlignment="Left"
+            Margin="393,288,0,0"
+            VerticalAlignment="Top"
+            Width="202" Height="37" />
+        <Grid HorizontalAlignment="Left"
+              Height="273"
+              Margin="309,10,0,0"
+              VerticalAlignment="Top" Width="382"
+              Visibility="{Binding IsCarGridVisible}">
+            <Label Content="Type" HorizontalAlignment="Left" Margin="113,196,0,0" VerticalAlignment="Top" />
+            <Label Content="Color" HorizontalAlignment="Left" Margin="113,227,0,0" VerticalAlignment="Top" />
+            <Label x:Name="lblType" Content="{Binding CurrentSelectedCatalogItem.Type}" HorizontalAlignment="Left"
+                   Margin="177,196,0,0" VerticalAlignment="Top" />
+            <Label x:Name="lblColor" Content="{Binding CurrentSelectedCatalogItem.Color}" HorizontalAlignment="Left"
+                   Margin="177,227,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.161,0.443" />
+        </Grid>
+        <Grid
+            HorizontalAlignment="Left"
+            Height="278" Margin="309,5,0,0"
+            VerticalAlignment="Top" Width="382"
+            Visibility="{Binding IsHouseGridVisible}">
+            <Label Content="Number of floors:" HorizontalAlignment="Left" Margin="118,234,0,0" VerticalAlignment="Top" />
+            <Label x:Name="lblNumberOfFloors" Content="{Binding CurrentSelectedCatalogItem.NumberOfFloors}"
+                   HorizontalAlignment="Left" Margin="244,234,0,0" VerticalAlignment="Top"
+                   RenderTransformOrigin="2.161,0.443" />
+            <CheckBox x:Name="chkIsFlatRoof" IsChecked="{Binding CurrentSelectedCatalogItem.IsFlatRoof}"
+                      Content="Is roof floor" HorizontalAlignment="Left" Margin="118,204,0,0" VerticalAlignment="Top"
+                      Width="138" />
+        </Grid>
+        <Grid HorizontalAlignment="Left"
+              Height="273"
+              Margin="309,10,0,0"
+              VerticalAlignment="Top"
+              Width="393" Visibility="{Binding IsPersonGridVisible}">
+            <Label Content="Age" HorizontalAlignment="Left" Margin="111,197,0,0" VerticalAlignment="Top" />
+            <Label Content="Address" HorizontalAlignment="Left" Margin="111,228,0,0" VerticalAlignment="Top" />
+            <Label x:Name="lblAge" Content="{Binding CurrentSelectedCatalogItem.Age}" HorizontalAlignment="Left"
+                   Margin="175,197,0,0" VerticalAlignment="Top" />
+            <Label x:Name="lblAddress" Content="{Binding CurrentSelectedCatalogItem.Address}"
+                   HorizontalAlignment="Left" Margin="175,228,0,0" VerticalAlignment="Top"
+                   RenderTransformOrigin="2.161,0.443" />
+
+        </Grid>
+    </Grid>
+</Window>

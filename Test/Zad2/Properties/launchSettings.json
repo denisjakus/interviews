@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Zad2": {
+      "commandName": "Project",
+      "commandLineArgs": "test.xml"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad1\Release\netcoreapp2.2\Zad1.csproj.CoreCompileInputs.cache
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad1\Release\netcoreapp2.2\Zad1.AssemblyInfoInputs.cache
+D:\POSALJI_ZADATAK\Test\.vs\Test\lut\0\i\Zad1\Release\netcoreapp2.2\Zad1.AssemblyInfo.cs
